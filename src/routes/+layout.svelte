@@ -57,17 +57,27 @@
 
 <style lang="scss">
 
+    /* blue shaeds
+    #23395d
+    #203354
+    #1c2e4a
+    #192841
+    #152238
+    */
+
     :global(:root) {
         --background-color: #1c2e4a;
         --secondary-background-color: #152238;
+        --item-background-color: #23395d;
         --text-color: #f1f0f0;
+        --in-scrollbar-thumb: #2f3d57;
     }
 
     :global(body) {
         color: var(--text-color);
         background-color: var(--background-color);
         margin: 0;
-        max-width: 99.51%;
+        max-width: 99.50%;
         font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -157,12 +167,6 @@
 
     
 
-    /* blue shaeds
-    #23395d
-    #203354
-    #1c2e4a
-    #192841
-    #152238
-    */
+    
 
 </style>
